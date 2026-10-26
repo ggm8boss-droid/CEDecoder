@@ -1,0 +1,25 @@
+# Third-party source clones (cheat-engine, unluac, luadec, old decoder) - fetch them yourself
+ref/
+
+# Build intermediates and built decompilers (unluac.jar, luadec.exe)
+build/
+tools/
+*.obj
+*.class
+
+# Decoder output
+output/
+test/out/
+*.luac
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
